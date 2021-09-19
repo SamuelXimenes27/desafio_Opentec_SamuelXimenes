@@ -2,7 +2,7 @@ function meuEscopo() {
     const form = document.querySelector('.formulario-reg');
 
     function clicka() {
-        location.href = 'https://samuelximenes27.github.io/desafio_Opentec_SamuelXimenes/';
+        location.href = '../open-teste/index.html';
     }
 
     function recebeEventoForm(evento) {
