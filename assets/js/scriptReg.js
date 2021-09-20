@@ -1,10 +1,13 @@
 function meuEscopo() {
     const form = document.querySelector('.formulario-reg');
 
+    /*função que redireciona para a pagina de login */
     function clicka() {
         location.href = '../open-teste/index.html';
     }
 
+    /*função que pega os valores do email e senha e verifica
+    se são iguais ao valor setado de acordo com os valores fornecidos no teste. */
     function recebeEventoForm(evento) {
         evento.preventDefault();
 
@@ -16,6 +19,7 @@ function meuEscopo() {
 
         function checkReg() {
             if (emailRegOpen == 'usuario@teste.com.br' && senhaRegOpen == 'senha123') {
+                /*alerta personalizado */
                 alertify.success('Successfully registered, you will be redirected to the login screen.');
                 setTimeout(function() { clicka() }, 3000);
             } else {

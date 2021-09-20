@@ -1,3 +1,5 @@
+/*função que pega os valores do email e senha e verifica
+se são iguais ao valor setado de acordo com os valores fornecidos no teste. */
 function meuEscopo() {
     const form = document.querySelector('.formulario');
 
@@ -11,7 +13,7 @@ function meuEscopo() {
 
         function checkEmail(evento) {
             if (emailOpen == 'usuario@teste.com.br' && senhaOpen === 'senha123') {
-                /*alertify.set('notifier', 'position', 'bottom-left');*/
+                /*alerta personalizado */
                 alertify.success('Olá, usuario@teste.com.br! Seja bem vindo.');
             } else {
                 alertify.error('Email or Password is not correct');
