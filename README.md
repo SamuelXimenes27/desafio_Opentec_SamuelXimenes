@@ -3,13 +3,13 @@ Página desenvolvida para o processo seletivo da Opentec, feita com HTML, CSS e 
 
 <div>
   <h1>Tela de Login</h1>
-    <a>Login: usuario@teste.com.br </a>
-    <a>Senha: senha123</a>
+    <p>Login: usuario@teste.com.br </p>
+    <p>Senha: senha123</p>
 </div>
 
 <div>
   <h1>Tela de Registro</h1>
-    <a>Nome: aceita qualquer nome </a>
-    <a>Email: usuario@teste.com.br </a>
-    <a>Senha: senha123</a>
+    <p>Nome: aceita qualquer nome </p>
+    <p>Email: usuario@teste.com.br </p>
+    <p>Senha: senha123</p>
 </div>
