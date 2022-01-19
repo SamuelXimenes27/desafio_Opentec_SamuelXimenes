@@ -3,7 +3,7 @@ function meuEscopo() {
 
     /*função que redireciona para a pagina de login */
     function clicka() {
-        location.href = '../open-teste/index.html';
+        location.href = 'https://samuelximenes27.github.io/desafio_Opentec_SamuelXimenes/';
     }
 
     /*função que pega os valores do email e senha e verifica
