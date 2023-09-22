@@ -1,11 +1,10 @@
 body {
     background: #7d2ae8 !important;
     font-family: Poppins, sans-serif !important;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+}
+
+section {
+    top: 30%;
 }
 
 .card {
@@ -21,7 +20,7 @@ body {
     flex-direction: column;
 }
 
-#texto {
+#text-login {
     width: 300px;
     height: 60px;
     font-weight: 600;
@@ -31,17 +30,32 @@ body {
     padding-top: 10px;
 }
 
-#texto-2 {
+#text-login-2 {
     font-weight: 500;
     font-size: 15px;
     color: #fff;
     padding-top: 10px;
 }
 
+#text-register {
+    width: 300px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    padding-top: 5px;
+}
+
+#text-register-2 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+}
+
 .card-body {
     padding: 2rem;
 }
-
 
 /*ESPAÇAMENTOS*/
 
@@ -60,7 +74,6 @@ body {
     padding-bottom: 20px;
     font-weight: 600;
 }
-
 
 /*ESTILIZAÇÃO DOS INPUTS*/
 
@@ -129,4 +142,21 @@ body {
 .alertify-notifier {
     text-align: center;
     margin: 0 -250px;
+}
+
+/*TRANSIÇÃO*/
+
+[data-page]{
+    position:fixed;
+    width: 100%;
+    min-height: 100vh;
+    transform: translate3d(100%, 0, 0);
+    opacity: 0;
+    transition: transform 0.5s ease-in, opacity 0.5s ease-in; 
+    z-index: 10;
+}
+[data-page].active{
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    z-index: 100;
 }
