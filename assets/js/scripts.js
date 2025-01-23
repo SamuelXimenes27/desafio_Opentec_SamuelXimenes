@@ -16,7 +16,7 @@ function formsScope() {
         function checkEmail() {
             if (emailOpen == 'usuario@teste.com.br' && senhaOpen === 'senha123') {
                 /*alerta personalizado */
-                alertify.success('Olá, usuario@teste.com.br! Seja bem vindo.');
+                alertify.success('Hi, usuario@teste.com.br! Welcome.');
             } else {
                 alertify.error('Email or Password is not correct');
             }
